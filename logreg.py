@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from celluloid import Camera
+
 
 df = pd.read_csv("https://raw.githubusercontent.com/nikhilkumarsingh/Machine-Learning-Samples/master/Logistic_Regression/dataset1.csv")
 x = df.iloc[:,:2]
